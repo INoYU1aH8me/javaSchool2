@@ -6,7 +6,7 @@ abstract class Figure{
     protected abstract double getSquare();
 }
 class Circle extends Figure {
-    final double Pi = 3.14;
+
     int Radius;
 
     public Circle(int radius) {
@@ -15,11 +15,11 @@ class Circle extends Figure {
 
     @Override
     public double getPerimeter(){
-        return 2*Pi*Radius;
+        return 2*Math.PI*Radius;
     }
 
     public double getSquare() {
-        return Pi*Radius*Radius;
+        return Math.PI*Radius*Radius;
     }
 }
 class Rectangle extends Figure {

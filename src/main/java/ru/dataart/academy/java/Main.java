@@ -20,7 +20,7 @@ public class Main{
                 System.out.println("made rectangle with sides: " + (i+2) + ", "+ (i+1));
             }
         }
-        System.out.print("sum of squares= "+ calculator.CalculateSquaresSum(figures));
+        System.out.printf("sum of squares= %.2f",calculator.CalculateSquaresSum(figures));
 
         in.close();
 
