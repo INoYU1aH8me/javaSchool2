@@ -41,8 +41,8 @@ class Rectangle extends Figure {
     }
 }
 class Calculator{
-    int CalculateSquaresSum(Figure[] figures){
-        int result=0;
+    double CalculateSquaresSum(Figure[] figures){
+        double result=0;
         for(int i=0; i<figures.length; i++){
             result+=figures[i].getSquare();
         }
